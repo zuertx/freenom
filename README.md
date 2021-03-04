@@ -13,8 +13,6 @@ Documentation: [English version](https://github.com/luolongfei/freenom/blob/mast
 
 [🍭  效果](#--效果)
 
-[🎁  事前准备](#--事前准备)
-
 [📪  配置发信邮箱](#--配置发信邮箱)
 
 [🚧  配置脚本](#--配置脚本)
@@ -24,12 +22,6 @@ Documentation: [English version](https://github.com/luolongfei/freenom/blob/mast
 [☕  验证](#--验证)
 
 [🤣  本项目最简单的使用方法](#--本项目最简单的使用方法)
-
-[🍺  信仰](#--信仰)
-
-[❤  捐赠 Donate](#--捐赠-donate)
-
-[📋  捐赠名单 Donate List](#--捐赠名单-donate-list)
 
 [🌚  作者](#--作者)
 
@@ -47,12 +39,6 @@ Documentation: [English version](https://github.com/luolongfei/freenom/blob/mast
 
 无论是续期成败或者脚本执行出错，都会收到的程序发出的邮件。如果是续期成败相关的邮件，邮件会包括未续期域名的到期天数等内容。
 邮件参考了微信发送的注销公众号的邮件样式。
-
-### 🎁  事前准备
-- 发信邮箱：为了方便理解又称机器人邮箱，用于发送通知邮件。目前支持`Gmail`、`QQ邮箱`以及`163邮箱`，程序会自动判断发信邮箱类型并使用合适的配置。推荐使用`Gmail`。
-- 收信邮箱：用于接收机器人发出的通知邮件。推荐使用`QQ邮箱`，`QQ邮箱`唯一的好处只是收到邮件会在`QQ`弹出消息。
-- VPS：随便一台服务器都行，系统推荐`Centos7`，另外PHP版本需在`php7.1`及以上。**（注：没有 VPS 也行，本项目支持在 Github Actions 上执行，完全白嫖，具体使用方法请参考「 [🤣  本项目最简单的使用方法](#--本项目最简单的使用方法) 」）**
-- 没有了
 
 ### 📪  配置发信邮箱
 下面分别介绍`Gmail`、`QQ邮箱`以及`163邮箱`的设置，你只用看自己需要的部分。注意，`QQ邮箱`与`163邮箱`均使用账户加授权码的方式登录，
